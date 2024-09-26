@@ -1,0 +1,51 @@
+5) Você está em uma sala com três interruptores,
+cada um conectado a uma lâmpada em salas diferentes.
+Você não pode ver as lâmpadas da sala em que está,
+mas pode ligar e desligar os interruptores quantas vezes quiser.
+Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+Como você faria para descobrir,
+usando apenas duas idas até uma das salas das lâmpadas,
+qual interruptor controla cada lâmpada?
+
+1) APAGARIA OS INTERRUPTORES 1 E 2
+
+
+2) VERIA QUAIS SALAS ESTARIAM APAGADAS (PRIMEIRA SAÍDA)
+
+
+PASSO A: A LÂMPADA DA SALA EM QUE EU ESTOU APAGA E MAIS OUTRA.
+EX:
+MINHA SALA 1 - DESLIGADA
+SALA 2 - DESLIGADA
+SALA 3 - LIGADA
+
+PASSO B: APENAS A LÃMPADA DA SALA EM QUE ESTOU NÃO APAGA. (NEM PRECISO SAIR)
+EX:
+MINHA SALA 1 - LIGADA
+SALA 2 - DESLIGADA
+SALA 3 - DESLIGADA
+
+
+3 PRECISO VER QUAL A PRÓXIMA SALA QUE TERÁ A LÂMPADA LIGADA
+
+
+PASSO C: SE REALIZADO APÓS O PASSO A.
+EX:
+MINHA SALA 1 - LIGADA (SE LIGAR NEM PRECISO SAIR)
+SALA 2 - DESLIGADA
+SALA 3 - LIGADA
+
+HIPÓTESE 2: SE REALIZADO APÓS O PASSO B. (SEGUNDA SAÍDA)
+EX:
+MINHA SALA 1 - LIGADA
+SALA 2 - LIGADA
+SALA 3 - DESLIGADA
+
+HIPÓTESE 2: SE REALIZADO APÓS O PASSO B. (SEGUNDA SAÍDA)
+EX:
+MINHA SALA 1 - LIGADA
+SALA 2 - DESLIGADA
+SALA 3 - LIGADA
+
+RESPOSTA:
+HÁ A POSSIBILIDADE DE SAIR APENAS UMA VEZ, DESLIGANDO DUAS LÂMPADAS E EM SEGUIDA LIGANDO MAIS UMA.
